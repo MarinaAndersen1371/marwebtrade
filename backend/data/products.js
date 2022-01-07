@@ -1,0 +1,85 @@
+const products = [
+  {
+    name: "Product Wireless Headphones",
+    image: "/images/airpods.jpg",
+    description:
+      "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone",
+    brand: "Mapple",
+    category: "Audio",
+    pricePurchase: 74.0,
+    price: 89.99,
+    countInStock: 15,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: "Phone 11 Pro 256GB Memory",
+    image: "/images/phone.jpg",
+    description:
+      "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+    brand: "Mapple",
+    category: "Electronics",
+    pricePurchase: 496.0,
+    price: 599.99,
+    countInStock: 20,
+    rating: 0,
+    numReviews: 0,
+    extra: true,
+  },
+  {
+    name: "Kannon EOS 80D DSLR Camera",
+    image: "/images/camera.jpg",
+    description:
+      "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design",
+    brand: "Kannon",
+    category: "Electronics",
+    pricePurchase: 272.0,
+    price: 329.0,
+    countInStock: 0,
+    rating: 0,
+    numReviews: 0,
+    extra: true,
+  },
+  {
+    name: "Sunny Playstation 4 Pro White Version",
+    image: "/images/playstation.jpg",
+    description:
+      "The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music,Whether you are into gaming",
+    brand: "Sunny",
+    category: "Electronics",
+    pricePurchase: 330.0,
+    price: 399.99,
+    countInStock: 19,
+    rating: 0,
+    numReviews: 0,
+    extra: true,
+  },
+  {
+    name: "Techlogic G-Series Gaming Mouse",
+    image: "/images/mouse.jpg",
+    description:
+      "Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience",
+    brand: "Techlogic",
+    category: "Electronics",
+    pricePurchase: 41.0,
+    price: 49.99,
+    countInStock: 17,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: "Amazing Echo Dot 3rd Generation",
+    image: "/images/alexa.jpg",
+    description:
+      "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
+    brand: "Amazing",
+    category: "Smart Home",
+    pricePurchase: 24.0,
+    price: 29.99,
+    countInStock: 17,
+    rating: 0,
+    numReviews: 0,
+  },
+];
+
+export default products;
