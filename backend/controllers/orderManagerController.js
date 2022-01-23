@@ -19,7 +19,7 @@ const updateInvoiceSend = asyncHandler(async (req, res) => {
   const order = await Order.findById(req.params.id);
   if (order) {
     order.invoiceSent = true;
-    order.invoicedAt = Date.now();
+    order.invoiceAt = Date.now();
 
     const updatedOrder = await order.save();
     res.json(updatedOrder);
@@ -36,7 +36,7 @@ const updateOrderCover = asyncHandler(async (req, res) => {
   const order = await Order.findById(req.params.id);
   if (order) {
     order.isExtra = true;
-    order.extraAt = Date.now();
+    order.extraFrom = Date.now();
 
     const updatedOrder = await order.save();
     res.json(updatedOrder);
@@ -70,7 +70,7 @@ const updateRefundPaid = asyncHandler(async (req, res) => {
   const order = await Order.findById(req.params.id);
   if (order) {
     order.refund = true;
-    order.refunddAt = Date.now();
+    order.refundAt = Date.now();
 
     const updatedOrder = await order.save();
     res.json(updatedOrder);
