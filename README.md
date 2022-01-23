@@ -1,7 +1,9 @@
-## eCommerce platform built with the MERN stack & Redux.
+# eCommerce platform built with the MERN stack & Redux.
 ### The  Project can be found [here](https://productmarwebtrade.herokuapp.com/)
 
 ![alt text](https://github.com/MarinaAndersen1371/marwebtrade/blob/main/frontend/public/images/trade.jpg)
+
+## **The Project has been updated to react-router-dom v.6** [here](https://github.com/MarinaAndersen1371/eCommerceReact-router-domV6)
 
 #### Features:<br/>
 * Full featured shopping cart<br/>
